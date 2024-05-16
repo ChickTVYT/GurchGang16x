@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background: #04c842;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+a:hover {
+    background: #08b13e;
+    transition: .5s;
+}
+
+.headline {
+    font-size: 55px
+}
+
+.Text1 {
+    padding: 0 50px;
+    height: 0px;
+}
+
+.box-shadow {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    margin: 50px;
+    top: -104px;
+    font-weight: bold;
+}
+
+.MiniText {
+    font-size: 27px;
+}
+
+.Impressum {
+    position: absolute;
+    left: 260px;
+    font-size: 30px;
+}
+
+.TextKlickeHier {
+    font-size: 27px;
+    position: absolute;
+    right: 950px;
+}
+
+.LobbyUpdate {
+    position: absolute;
+    top: 800px;
+}
+
+.OnurSMPGame {
+    position: absolute;
+    right: 630px;
+    bottom: 200px;
+}
+
+.OnurSMPGame:hover {
+    filter: brightness(70%);
+    background-image: url('onursmp.png');
+}
